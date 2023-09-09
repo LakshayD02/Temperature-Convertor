@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(Wallpaper.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    border: 2px solid rgb(0, 110, 255);
+    max-width: 500px;
+    background: #000000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 3px rgba(0, 68, 255, 0.493);
+    font-family: sans-serif;
+    padding: 60px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 15px;
+}
+
+.Temperature-icon{
+    font-size: 45px;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 50px;
+}
+
+#celsius, #fahrenheit, #kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    border: solid 1px white;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.253);
+}
+
+input::placeholder{
+    font-size: large;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+/* for chrome, safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+/* for Mozila firefox */
+/* input{
+    -moz-appearance: textfield;
+} */
+
+
+.icon{
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 35px;
+    background: #0084ff;
+    color: #fff;
+    border: 1px solid rgb(0, 225, 255);
+    border-radius: 0 10px 10px 0;
+}
+
+
+.button{
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #ffffff;
+    background: black;
+    border: 3px solid rgb(0, 132, 255);
+    box-shadow: 5px 5px 5px rgba(0, 140, 255, 0.404);
+}
+
+.button button:hover{
+    background: url(Wallpaper.jpg);
+    border: 3px solid rgb(255, 255, 255);
+    color: #0099ff;
+    box-shadow: none;
+}
+
+@media (max-width: 450px){
+    .container{
+        min-height: 50vh;
+        min-width: 45vh;
+    }
+
+    body{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
