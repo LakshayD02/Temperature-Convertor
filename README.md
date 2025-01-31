@@ -23,11 +23,7 @@ This Temperature Converter provides an intuitive way to convert between Celsius,
 * **JavaScript:**  Conversion logic and interactivity. ⚙️
 
 
-## How to Run
 
-- **Clone the repository:** `git clone https://github.com/YOUR_USERNAME/Temperature-Converter.git` 💾 (Replace with your repo URL)
-
-- **Open `index.html`:** Navigate to the project directory and open `index.html` in your web browser. 🌐
 
 
 
