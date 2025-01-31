@@ -2,7 +2,7 @@
 
 ## Description
 
-This Temperature Converter provides an intuitive way to convert between Celsius, Fahrenheit, and Kelvin.  Whether you're a student learning about temperature scales, a cook adapting a recipe, or just curious about the weather in another part of the world, this app offers a fast and reliable solution.  It's designed for ease of use, with real-time conversion and a clean interface.
+This Temperature Converter provides an intuitive way to convert between Celsius, Fahrenheit, and Kelvin.  
 
 ## Features
 
